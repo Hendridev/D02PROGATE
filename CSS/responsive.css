@@ -3,3 +3,19 @@
         background-position-y: 0px;
     }
 }
+@media screen and (max-width:670px) {
+    /*izza*/
+    .header-left{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .header-right{
+        display: none;
+    }
+    .bar{
+        display: block;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
+    /*izza end*/
+}

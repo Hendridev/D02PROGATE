@@ -27,12 +27,57 @@ html {
 
 /* css izza */
 
-header {
-    height: 80px;
-    background-color: rgb(0, 0, 0);
+.header {
+    height: 60px;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
-
-
+.header-left{
+    float: left;
+    padding-left: 100px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.header-left span{
+    color: darkorange;
+}
+.header-left a{
+    text-decoration: none;
+    color: white;
+}
+.header-right{
+    float: right;
+    padding-right: 100px;
+    padding-top:20px;
+}
+.header-right li{
+    float: left;
+    margin-left: 30px;
+}
+.nav{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.nav:hover::after{
+    content:'';
+    display: block;
+    border-bottom: 3px solid darkorange;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 3px;
+}
+.bar{
+    display: none;
+}
+.fa-bars{
+    display: none;
+    color: white;
+    float:right;
+}
 /* css izza end */
 
 
