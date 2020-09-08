@@ -1,16 +1,94 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* untuk font */
+    --font-bebasNeue: 'Bebas Neue', cursive;
+    --font-lato: 'Lato', sans-serif;
+    --font-lora: 'Lora', serif;
+    --font-quicksand: 'Quicksand', sans-serif;
+    /* cara pake: var(--font-lora); */
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    font-family: var(--font-quicksand);
+    font-weight: 700;
+}
+
+.container {
+    padding: 0 20px;
 }
 
 
 /* css izza */
+
+header {
+    height: 80px;
+    background-color: rgba(112, 112, 112, 0.103);
+}
 
 
 /* css izza end */
 
 
 /* css hendri */
+
+.main {
+    height: 450px;
+    background: url(../media/main-atas.jpg);
+    background-size: cover;
+    background-position-y: -380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-title {
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.952);
+    padding: 20px;
+}
+
+.main-title p {
+    font-size: 17px;
+}
+
+.title-button button {
+    margin-top: 4rem;
+    padding: 10px 20px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-family: var(--font-quicksand);
+    letter-spacing: 2px;
+}
+
+.title-button button:active {
+    opacity: 0;
+    transition: 2s;
+}
+
+.main-about {
+    height: 500px;
+    display: grid;
+    grid-template-areas: "gambar penjelasan";
+}
+
+.float-right {
+    grid-area: penjelasan;
+    background-color: antiquewhite;
+}
+
+.float-left {
+    grid-area: gambar;
+    background-color: rgb(247, 168, 65);
+}
 
 
 /* css hendri end */
