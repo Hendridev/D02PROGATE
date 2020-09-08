@@ -29,7 +29,7 @@ html {
 
 header {
     height: 80px;
-    background-color: rgba(112, 112, 112, 0.103);
+    background-color: rgb(0, 0, 0);
 }
 
 
@@ -78,16 +78,38 @@ header {
     height: 500px;
     display: grid;
     grid-template-areas: "gambar penjelasan";
-}
-
-.float-right {
-    grid-area: penjelasan;
-    background-color: antiquewhite;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
 }
 
 .float-left {
     grid-area: gambar;
-    background-color: rgb(247, 168, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.float-right {
+    grid-area: penjelasan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.menu-description {
+    height: 300px;
+    border-radius: 10px;
+    width: 400px;
+    background: url(../media/michael-yuan-Sb_kSv-lUbg-unsplash.jpg);
+    background-size: cover;
+}
+
+.menu-dish {
+    height: 500px;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
 
 
