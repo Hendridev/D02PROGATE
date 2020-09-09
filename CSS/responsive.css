@@ -61,6 +61,26 @@
         font-size: 13px;
     }
     /* hesti end */
+    .contact-right,
+    .contact-left {
+        font-size: 12px;
+    }
+    .contact-form {
+        height: 550px;
+    }
+    .contact-left,
+    .contact-right {
+        flex-basis: 100%;
+    }
+    .contact-box {
+        flex-wrap: wrap;
+    }
+    .input-row {
+        margin-bottom: 5px;
+    }
+    .contact-right h3 {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width:670px) {
@@ -117,4 +137,10 @@
         justify-content: center;
     }
     /* hesti end */
+    /* gusti */
+    .contact-form {
+        padding-top: 50px;
+        height: 500px;
+    }
+    /* gusti end */
 }

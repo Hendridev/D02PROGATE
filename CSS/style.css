@@ -308,7 +308,6 @@ html {
     height: 200px;
     line-height: 0;
     width: 20%;
-    border-radius: 10px;
     margin: 0 30px;
     background-color: white;
     display: flex;
@@ -359,7 +358,7 @@ html {
 
 .contact-form {
     background-color: black;
-    height: 650px;
+    height: 600px;
     padding-top: 150px;
 }
 
@@ -374,16 +373,17 @@ html {
 .contact-box {
     background: #fff;
     display: flex;
+    width: 100%;
 }
 
 .contact-left {
-    flex-basis: 60%;
+    flex-basis: 90%;
     padding: 20px 40px;
 }
 
 .contact-right {
     flex-basis: 40%;
-    padding: 40px;
+    padding: 20px;
     background: #fb7808;
     color: #fff;
 }
@@ -440,9 +440,7 @@ label {
     border: none;
     color: #fff;
     height: 35px;
-    border-radius: 30px;
     margin-top: 20px;
-    box-shadow: 0px 5px 10px 0px rgb(56, 53, 53);
 }
 
 .btn:active {
