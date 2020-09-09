@@ -21,7 +21,7 @@ html {
 }
 
 .container {
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 
@@ -34,57 +34,68 @@ html {
     z-index: 1;
     width: 100%;
 }
-.header-left{
+
+.header-left {
     float: left;
     padding-left: 100px;
     font-weight: 400;
     padding-top: 10px;
 }
-.header-left span{
+
+.header-left span {
     color: darkorange;
 }
-.header-left a{
+
+.header-left a {
     text-decoration: none;
     color: white;
 }
-.header-right{
+
+.header-right {
     float: right;
     padding-right: 100px;
-    padding-top:20px;
+    padding-top: 20px;
 }
-.header-right li{
+
+.header-right li {
     float: left;
     margin-left: 30px;
 }
-.nav{
+
+.nav {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     font-size: 14px;
 }
-.nav:hover::after{
-    content:'';
+
+.nav:hover::after {
+    content: '';
     display: block;
     border-bottom: 3px solid darkorange;
     width: 50%;
     margin: auto;
     padding-bottom: 3px;
 }
-.bar{
+
+.bar {
     display: none;
 }
-.fa-bars{
+
+.fa-bars {
     display: none;
     color: white;
-    float:right;
+    float: right;
 }
+
+
 /* css izza end */
 
 
 /* css hendri */
 
 .main {
-    height: 450px;
+    height: 460px;
     background: url(../media/main-atas.jpg);
     background-size: cover;
     background-position-y: -380px;
@@ -140,34 +151,117 @@ html {
     justify-content: center;
     align-items: center;
     color: white;
+    text-align: justify;
 }
 
 .menu-description {
-    height: 300px;
-    border-radius: 10px;
-    width: 400px;
+    height: 280px;
+    border-radius: 8px;
+    width: 350px;
     background: url(../media/michael-yuan-Sb_kSv-lUbg-unsplash.jpg);
     background-size: cover;
 }
 
+.menu h1 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid darkorange;
+}
+
 .menu-dish {
-    height: 500px;
+    height: 700px;
     text-align: center;
     color: white;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    padding-top: 100px;
+}
+
+.menu-dish h1 {
+    margin-bottom: 100px;
+}
+
+.menu-dish h1::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid darkorange;
+    width: 10%;
+    margin: auto;
+    padding-bottom: 2px;
+}
+
+.menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 20%;
+    background: url(../media/makanan-1.jpg);
+    background-size: cover;
+}
+
+.menu-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 20%;
+    background: url(../media/makanan-2.jpg);
+    background-size: cover;
+}
+
+.menu-three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 20%;
+    background: url(../media/chad-montano-eeqbbemH9-c-unsplash.jpg);
+    background-size: cover;
+}
+
+.menu-four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px;
+    width: 20%;
+    background: url(../media/fatima-akram-4R_FKg8xG-M-unsplash.jpg);
+    background-size: cover;
+}
+
+.menu-wrapper p {
+    display: none;
+}
+
+.menu-one:hover,
+.menu-two:hover,
+.menu-three:hover,
+.menu-four:hover {
+    opacity: .7;
+    transition: 1s;
+}
+
+.menu-one:hover p,
+.menu-two:hover p,
+.menu-three:hover p,
+.menu-four:hover p {
+    display: block;
+    color: white;
+    position: relative;
+    opacity: 1;
 }
 
 
 /* css hendri end */
 
 
-/* css naya */
+/* css gusti */
 
 
-/* css naya end */
-
-
-/* css hesti */
-
-
-/* css hesti end */
+/* css gusti end */

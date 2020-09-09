@@ -1,29 +1,80 @@
 @media screen and (max-width:1000px) {
+    /* hendri */
     .main {
         background-position-y: 0px;
     }
+    .main-about {
+        grid-template-areas: "gambar" "penjelasan";
+        grid-template-columns: 1fr;
+    }
+    .menu-description {
+        height: 250px;
+        width: 250px;
+        background-position: center;
+        background-position-x: -70px;
+    }
+    .main-about {
+        height: 600px;
+    }
+    .menu-dish {
+        height: 900px;
+    }
+    .menu {
+        font-size: 14px;
+    }
+    .menu-one,
+    .menu-two,
+    .menu-three,
+    .menu-four {
+        width: 49%;
+        margin: 5px 0;
+    }
+    /* hendri end */
     /*izza*/
-    .header-left{
+    .header-left {
         padding-left: 50px;
     }
-    .header-right{
-        padding-right:50px
+    .header-right {
+        padding-right: 50px
+    }
+    .fa-bars {
+        font-size: 40px;
     }
     /*izza end*/
 }
+
 @media screen and (max-width:670px) {
     /*izza*/
-    .header-left{
+    .header-left {
         padding-left: 30px;
         font-size: 14px;
     }
-    .header-right{
+    .header-right {
         display: none;
     }
-    .bar{
+    .bar {
         display: block;
         padding-right: 30px;
         padding-top: 10px;
     }
     /*izza end*/
+    /* hendri */
+    .menu-description {
+        width: 200px;
+        height: 200px;
+    }
+    .menu {
+        font-size: 12.5px;
+    }
+    .menu-one,
+    .menu-two,
+    .menu-three,
+    .menu-four {
+        width: 100%;
+        height: 250px;
+    }
+    .menu-dish {
+        height: 1300px;
+    }
+    /* hendri end */
 }
