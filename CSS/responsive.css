@@ -51,7 +51,7 @@
         height: 200px;
         line-height: 0;
         width: 49%;
-        border-radius: 10px;
+        border-radius: 0px;
         margin: 2px;
         background-color: white;
         display: flex;
@@ -110,7 +110,7 @@
         height: 190px;
         line-height: 0;
         width: 80%;
-        border-radius: 10px;
+        border-radius: 0px;
         margin: 5px 0;
         background-color: white;
         display: flex;

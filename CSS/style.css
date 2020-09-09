@@ -13,6 +13,10 @@
     /* cara pake: var(--font-lora); */
 }
 
+body {
+    background-color: black;
+}
+
 html {
     font-size: 16px;
     scroll-behavior: smooth;
@@ -353,15 +357,13 @@ html {
 
 /* css gusti */
 
-
-/* css hesti end */
-
 .contact-form {
     background-color: black;
+    height: 650px;
+    padding-top: 150px;
 }
 
 .contact-form .container {
-    width: 80%;
     margin: 0px auto;
 }
 
@@ -376,7 +378,7 @@ html {
 
 .contact-left {
     flex-basis: 60%;
-    padding: 40px 60px;
+    padding: 20px 40px;
 }
 
 .contact-right {
@@ -384,10 +386,6 @@ html {
     padding: 40px;
     background: #fb7808;
     color: #fff;
-}
-
-h1 {
-    margin-bottom: 10px;
 }
 
 .contact-left h3 {
@@ -398,7 +396,7 @@ h1 {
     color: white;
 }
 
-.container p {
+.contact-form .container p {
     margin-bottom: 40px;
 }
 
@@ -417,6 +415,7 @@ input {
     border: none;
     border-bottom: 1px solid #ccc;
     outline: none;
+    overflow: hidden;
     padding-bottom: 5px;
 }
 
@@ -434,20 +433,24 @@ label {
     color: #fb7808;
 }
 
-button {
+.btn {
     background: #fb7808;
-    width: 100px;
+    font-family: var(--font-quicksand);
+    width: 80px;
     border: none;
-    outline: none;
     color: #fff;
     height: 35px;
     border-radius: 30px;
     margin-top: 20px;
-    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0, 3);
+    box-shadow: 0px 5px 10px 0px rgb(56, 53, 53);
+}
+
+.btn:active {
+    box-shadow: none;
 }
 
 .contact-left h3 {
-    color: fb7808;
+    color: #fb7808;
     font-weight: 600;
     margin-bottom: 30px;
 }
@@ -463,4 +466,18 @@ tr td:first-child {
 
 tr td {
     padding-top: 20px;
+}
+
+.title h1::after {
+    content: '';
+    display: block;
+    border-bottom: 2px solid darkorange;
+    width: 19%;
+    margin-bottom: 10px;
+    /* margin: auto; */
+    padding-bottom: 2px;
+}
+
+::placeholder {
+    font-family: var(--font-quicksand);
 }
