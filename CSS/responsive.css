@@ -41,6 +41,26 @@
         font-size: 40px;
     }
     /*izza end*/
+    /* hesti */
+    .main-message {
+        background-color: black;
+        height: 700px;
+    }
+    .mess {
+        color: black;
+        height: 200px;
+        line-height: 0;
+        width: 49%;
+        border-radius: 10px;
+        margin: 2px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    .heading {
+        font-size: 13px;
+    }
+    /* hesti end */
 }
 
 @media screen and (max-width:670px) {
@@ -56,6 +76,10 @@
         display: block;
         padding-right: 30px;
         padding-top: 10px;
+    }
+    .bar {
+        margin-top: 10px;
+        font-size: 12px;
     }
     /*izza end*/
     /* hendri */
@@ -77,4 +101,20 @@
         height: 1300px;
     }
     /* hendri end */
+    /* hesti  */
+    .main-message {
+        height: 1200px;
+    }
+    .mess {
+        color: black;
+        height: 190px;
+        line-height: 0;
+        width: 80%;
+        border-radius: 10px;
+        margin: 5px 0;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+    }
+    /* hesti end */
 }
