@@ -260,7 +260,78 @@ html {
 /* css hendri end */
 
 
-/* css hesti  */
+/* css hesti */
+
+.main-message {
+    background-color: black;
+    height: 500px;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.heading h2 {
+    margin-bottom: 20px;
+}
+
+.heading p {
+    margin-bottom: 10px;
+}
+
+.list-message {
+    display: flex;
+    justify-content: center;
+    padding: 30px 150px;
+}
+
+.mess {
+    color: black;
+    height: 200px;
+    line-height: 0;
+    width: 20%;
+    border-radius: 10px;
+    margin: 0 30px;
+    background-color: white;
+}
+
+.mess:hover {
+    background-color: rgba(255, 240, 207, 1);
+}
+
+.desc {
+    margin: 15px;
+}
+
+.desc h5 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.desc span {
+    font-weight: normal;
+}
+
+.desc p {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.rating {
+    margin-top: 20px;
+}
+
+.satu {
+    margin-top: 20px;
+}
+
+.tiga {
+    margin-top: 20px;
+}
 
 
 /* css hesti end */
